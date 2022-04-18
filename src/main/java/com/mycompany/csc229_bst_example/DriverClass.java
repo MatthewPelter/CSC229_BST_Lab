@@ -26,5 +26,8 @@ public class DriverClass {
         bst.inOrderTraversal();
         
         bst.print();
+        
+        System.out.println("Tree Height: ");
+        System.out.println(bst.findHeight());
     }
 }
